@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "necklacetotem",
+  "version": "${version}",
+  "name": "Necklace Totem",
+  "description": "Totems of Undying stack to 8, and a craftable Necklace Totem lives in its own slot above the offhand slot.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.necklacetotem.NecklaceTotemMod"]
+  },
+  "mixins": ["necklacetotem.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
